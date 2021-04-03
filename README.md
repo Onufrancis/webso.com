@@ -1,3 +1,1 @@
-# web.com
-# webso.com
-# website.com
+# mywebsite.com
