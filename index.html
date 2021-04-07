@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web.com</title>
+    <title>webio.com</title>
     <link rel="stylesheet" href="style.css">
     <!--AWESOME FONT CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
@@ -75,9 +75,9 @@
 
   <div class="topnav" id="myTopnav">
     <a href="#home" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
-    <a href="#news"><i class="fa fa-fw fa-search"></i> News</a>
-    <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-    <a href="#about"><i class="fas fa-sign-in-alt"></i> About</a>
+    <a href="about.html"><i class="fas fa-id-card-alt"></i> Contact</a>
+    <a href="contact.html"><i class="fas fa-address-card"></i> About</a>
+    <a href="sign.html"><i class="fas fa-sign-in-alt"></i> Sign up</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -95,69 +95,7 @@
     }
     </script>
 
-     <!--HTML OF SLIDESHOW-->
-
-     <div class="slideshow-container">
-
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 4</div>
-          <img src="anna-gWuVzCmi3hg-unsplash.jpg" style="width:100%">
-          <div class="text">Caption Text</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 4</div>
-          <img src="fone.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 4</div>
-          <img src="ear.jpg" style="width:100%">
-          <div class="text">Caption Three</div>
-        </div>
-        
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 4</div>
-            <img src="donald-giannatti-Wj1D-qiOseE-unsplash.jpg" style="width:100%">
-            <div class="text">Caption Four</div>
-        </div>
-        
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span>
-          <span class="dot"></span> 
-        </div>
-        
-        <!--JAVASCRIPT OF SLIDESHOW-->
-        <script>
-            var slideIndex = 0;
-            showSlides();
-            
-            function showSlides() {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-              }
-              slideIndex++;
-              if (slideIndex > slides.length) {slideIndex = 1}    
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-              setTimeout(showSlides, 3000); // Change image every 3 seconds
-            }
-            </script>
-            
-             
-
+    
 <div class="bgimg-1">
     <div class="caption">
     <span class="border">WELCOME</span>
@@ -200,53 +138,9 @@
   </div>
 
 
-  <!-- Start Content -->
-<div id="home" class="w3-content">
-    <!-- Contact -->
-    <div id="contact" class="w3-container w3-center w3-padding-32">
-    
-      <h2 class="w3-wide">CONTACT</h2>
-      Nigeria, ENUGU<br>
-      Phone: +2347042466859<br>
-      Email: justineonu41@gmail.com<br>
-      <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
-      
-      <form action="/action_page.php" target="_blank">
-      <input class="w3-input" type="text" placeholder="Name" required name="Name">
-      <input class="w3-input" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input" type="text" placeholder="Message" required name="Message"><br>
-      <a href="mailto: justineonu41@gmail.com"><button class="b">SEND</button></a>
-      </form>
-      <br>
-      <img src="nasa-_SFJhRPzJHs-unsplash.jpg" class="w3-image" style="width:100%">
-    
-    </div>
-</div>
-   
-
 <!-- FOOTER START -->
 <div class="footer">
     <div class="contain">
-      <div class="col">
-        <h1>Company</h1>
-        <ul>
-          <li>About</li>
-          <li>Mission</li>
-          <li>Services</li>
-          <li>Social</li>
-          <li>Get in touch</li>
-        </ul>
-      </div>
-      <div class="col">
-        <h1>Products</h1>
-        <ul>
-          <li>About</li>
-          <li>Mission</li>
-          <li>Services</li>
-          <li>Social</li>
-          <li>Get in touch</li>
-        </ul>
-      </div>
       <div class="col">
         <h1>Accounts</h1>
         <ul>
